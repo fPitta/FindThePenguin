@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: ad8c3f8a67535493792e25bd07e27a45
+timeCreated: 1528288299
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: beanie
+    100002: Body
+    100004: Body1
+    100006: //RootNode
+    100008: group
+    100010: group1
+    100012: joint2
+    100014: joint4
+    100016: joint6
+    100018: joint8
+    100020: leftEye
+    100022: leftEye1
+    100024: leftFoot
+    100026: leftIris
+    100028: leftLeg
+    100030: leftLeg1
+    100032: leftLegJoint
+    100034: leftWing
+    100036: leftWingJoint
+    100038: pasted__Body
+    100040: pasted__Body 1
+    100042: pasted__leftEye
+    100044: pasted__leftEye 1
+    100046: pasted__leftEye1
+    100048: pasted__leftEye1 1
+    100050: pasted__leftFoot
+    100052: pasted__leftFoot 1
+    100054: pasted__leftIris
+    100056: pasted__leftIris 1
+    100058: pasted__leftLeg
+    100060: pasted__leftLeg 1
+    100062: pasted__pasted__pCube1
+    100064: pasted__pasted__pCube1 1
+    100066: pasted__pasted__pSphere1
+    100068: pasted__pasted__pSphere1 1
+    100070: pasted__pasted__rightIris
+    100072: pasted__pasted__rightIris 1
+    100074: pasted__pasted__rightLeg
+    100076: pasted__pasted__rightLeg 1
+    100078: pasted__pCone1
+    100080: pasted__pCone1 1
+    100082: pasted__pCube1
+    100084: pasted__pCube1 1
+    100086: pasted__pSphere1
+    100088: pasted__rightEye
+    100090: pasted__rightEye 1
+    100092: pasted__rightEye1
+    100094: pasted__rightEye1 1
+    100096: pasted__rightFoot
+    100098: pasted__rightFoot 1
+    100100: pasted__rightIris
+    100102: pasted__rightIris 1
+    100104: pasted__rightIris 2
+    100106: pasted__rightLeg
+    100108: pasted__rightLeg 1
+    100110: pasted__rightLeg 2
+    100112: pasted__transform1
+    100114: pasted__transform1 1
+    100116: pasted__transform10
+    100118: pasted__transform10 1
+    100120: pasted__transform11
+    100122: pasted__transform11 1
+    100124: pasted__transform12
+    100126: pasted__transform12 1
+    100128: pasted__transform2
+    100130: pasted__transform2 1
+    100132: pasted__transform3
+    100134: pasted__transform3 1
+    100136: pasted__transform4
+    100138: pasted__transform4 1
+    100140: pasted__transform5
+    100142: pasted__transform5 1
+    100144: pasted__transform6
+    100146: pasted__transform6 1
+    100148: pasted__transform7
+    100150: pasted__transform7 1
+    100152: pasted__transform8
+    100154: pasted__transform8 1
+    100156: pasted__transform9
+    100158: pasted__transform9 1
+    100160: pCone1
+    100162: rightEye
+    100164: rightEye1
+    100166: rightFoot
+    100168: rightIris
+    100170: rightLeg
+    100172: rightLeg1
+    100174: rightLegJoint
+    100176: rightWing
+    100178: rightWingJoint
+    100180: transform1
+    100182: transform10
+    100184: transform11
+    100186: transform12
+    100188: transform2
+    100190: transform3
+    100192: transform4
+    100194: transform5
+    100196: transform6
+    100198: transform7
+    100200: transform8
+    100202: transform9
+    400000: beanie
+    400002: Body
+    400004: Body1
+    400006: //RootNode
+    400008: group
+    400010: group1
+    400012: joint2
+    400014: joint4
+    400016: joint6
+    400018: joint8
+    400020: leftEye
+    400022: leftEye1
+    400024: leftFoot
+    400026: leftIris
+    400028: leftLeg
+    400030: leftLeg1
+    400032: leftLegJoint
+    400034: leftWing
+    400036: leftWingJoint
+    400038: pasted__Body
+    400040: pasted__Body 1
+    400042: pasted__leftEye
+    400044: pasted__leftEye 1
+    400046: pasted__leftEye1
+    400048: pasted__leftEye1 1
+    400050: pasted__leftFoot
+    400052: pasted__leftFoot 1
+    400054: pasted__leftIris
+    400056: pasted__leftIris 1
+    400058: pasted__leftLeg
+    400060: pasted__leftLeg 1
+    400062: pasted__pasted__pCube1
+    400064: pasted__pasted__pCube1 1
+    400066: pasted__pasted__pSphere1
+    400068: pasted__pasted__pSphere1 1
+    400070: pasted__pasted__rightIris
+    400072: pasted__pasted__rightIris 1
+    400074: pasted__pasted__rightLeg
+    400076: pasted__pasted__rightLeg 1
+    400078: pasted__pCone1
+    400080: pasted__pCone1 1
+    400082: pasted__pCube1
+    400084: pasted__pCube1 1
+    400086: pasted__pSphere1
+    400088: pasted__rightEye
+    400090: pasted__rightEye 1
+    400092: pasted__rightEye1
+    400094: pasted__rightEye1 1
+    400096: pasted__rightFoot
+    400098: pasted__rightFoot 1
+    400100: pasted__rightIris
+    400102: pasted__rightIris 1
+    400104: pasted__rightIris 2
+    400106: pasted__rightLeg
+    400108: pasted__rightLeg 1
+    400110: pasted__rightLeg 2
+    400112: pasted__transform1
+    400114: pasted__transform1 1
+    400116: pasted__transform10
+    400118: pasted__transform10 1
+    400120: pasted__transform11
+    400122: pasted__transform11 1
+    400124: pasted__transform12
+    400126: pasted__transform12 1
+    400128: pasted__transform2
+    400130: pasted__transform2 1
+    400132: pasted__transform3
+    400134: pasted__transform3 1
+    400136: pasted__transform4
+    400138: pasted__transform4 1
+    400140: pasted__transform5
+    400142: pasted__transform5 1
+    400144: pasted__transform6
+    400146: pasted__transform6 1
+    400148: pasted__transform7
+    400150: pasted__transform7 1
+    400152: pasted__transform8
+    400154: pasted__transform8 1
+    400156: pasted__transform9
+    400158: pasted__transform9 1
+    400160: pCone1
+    400162: rightEye
+    400164: rightEye1
+    400166: rightFoot
+    400168: rightIris
+    400170: rightLeg
+    400172: rightLeg1
+    400174: rightLegJoint
+    400176: rightWing
+    400178: rightWingJoint
+    400180: transform1
+    400182: transform10
+    400184: transform11
+    400186: transform12
+    400188: transform2
+    400190: transform3
+    400192: transform4
+    400194: transform5
+    400196: transform6
+    400198: transform7
+    400200: transform8
+    400202: transform9
+    2100000: lambert3
+    2100002: lambert15
+    2100004: lambert4
+    2100006: lambert5
+    2100008: lambert29
+    2100010: lambert20
+    2100012: lambert21
+    2100014: lambert13
+    2100016: lambert7
+    2100018: lambert10
+    2100020: lambert18
+    2100022: lambert1
+    2100024: lambert16
+    2100026: pasted__lambert18
+    2100028: lambert23
+    2100030: lambert14
+    2100032: lambert19
+    2100034: lambert24
+    2100036: lambert25
+    2100038: lambert11
+    2100040: lambert12
+    2300000: beanie
+    2300002: Body1
+    2300004: leftLeg1
+    2300006: pasted__pCube1 1
+    2300008: rightLeg1
+    2300010: rightWing
+    3300000: beanie
+    3300002: Body1
+    3300004: leftLeg1
+    3300006: pasted__pCube1 1
+    3300008: rightLeg1
+    3300010: rightWing
+    4300000: Body1
+    4300002: rightWing
+    4300004: pasted__pCube1
+    4300006: beanie
+    4300008: rightLeg1
+    4300010: leftLeg1
+    7400000: Walk
+    7400002: Idle
+    7400004: Damage
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 169
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Damage
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
