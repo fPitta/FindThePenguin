@@ -248,9 +248,9 @@ ModelImporter:
     4300006: beanie
     4300008: rightLeg1
     4300010: leftLeg1
-    7400000: Walk
-    7400002: Idle
-    7400004: Damage
+    7400000: BossWalk
+    7400002: BossIdle
+    7400004: BossDamage
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -280,7 +280,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
+      name: BossIdle
       takeName: Take 001
       firstFrame: 0
       lastFrame: 60
@@ -290,7 +290,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -308,7 +308,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Walk
+      name: BossWalk
       takeName: Take 001
       firstFrame: 61
       lastFrame: 169
@@ -318,7 +318,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -336,7 +336,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Damage
+      name: BossDamage
       takeName: Take 001
       firstFrame: 170
       lastFrame: 200
@@ -346,7 +346,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

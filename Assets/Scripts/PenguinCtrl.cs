@@ -3,27 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum PenguinState{
-	Idle = 0,
-	Walk,
-	Damage
+	BossIdle = 0,
+	BossWalk,
+	BossDamage
 }
 
 public class PenguinCtrl : MonoBehaviour {
-	PenguinState state = PenguinState.Idle;
+	PenguinState state = PenguinState.BossIdle;
 	float interval = 0;
 	Animator ani = null;
 	GameObject playerObj;
 
-	void Idle () {
-		ani.Play ("Idle");
+	void BossIdle () {
+		ani.Play ("BossIdle");
 		interval += Time.deltaTime;
 		if (interval > 2) {
-			state = PenguinState.Walk;
+			state = PenguinState.BossWalk;
 			interval = 0;
 		}
 	}
 
-	void Walk () {
+	void BossWalk () {
 		Vector3 dir = playerObj.transform.position - transform.position;
 		dir.Normalize ();
 		dir.y = 0;
@@ -32,7 +32,7 @@ public class PenguinCtrl : MonoBehaviour {
 		Quaternion to = Quaternion.LookRotation (dir);
 		transform.rotation = Quaternion.Lerp (from, to, 10 * Time.deltaTime);
 
-		ani.Play ("Walk");
+		ani.Play ("BossWalk");
 
 		float distance = Vector3.Distance (playerObj.transform.position, transform.position);
 		if (distance < 50) {
@@ -43,13 +43,13 @@ public class PenguinCtrl : MonoBehaviour {
 
 		interval += Time.deltaTime;
 		if (interval > 5) {
-			state = PenguinState.Idle;
+			state = PenguinState.BossIdle;
 			interval = 0;
 		}
 	}
 
-	void Damage () {
-		ani.Play ("Damage");
+	void BossDamage () {
+		ani.Play ("BossDamage");
 		Destroy (gameObject);
 	}
 
@@ -60,17 +60,17 @@ public class PenguinCtrl : MonoBehaviour {
 	
 	void OnCollisionEnter (Collision other) {
 		if (other.gameObject.layer == LayerMask.NameToLayer("Ball")) {
-			state = PenguinState.Damage;
+			state = PenguinState.BossDamage;
 		}
 	}
 
 	void Update () {
-		if (state == PenguinState.Idle) {
-			Idle ();
-		} else if (state == PenguinState.Walk) {
-			Walk ();
-		} else if (state == PenguinState.Damage) {
-			Damage ();
+		if (state == PenguinState.BossIdle) {
+			BossIdle ();
+		} else if (state == PenguinState.BossWalk) {
+			BossWalk ();
+		} else if (state == PenguinState.BossDamage) {
+			BossDamage ();
 		}
 	}
 }
