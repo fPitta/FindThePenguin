@@ -7,12 +7,14 @@ public class PlayerCtrl : MonoBehaviour {
 	private float dirX, dirZ;	//user's input dir.
 	private Vector3 dir, velocity;	//chracter's direction and velocity.
 	private float SpeedOfChar = 5f;	//character's speed
-
 	private float rotH, rotV = 0f;	//user's input rot.
 	private float mouseSensitivity = 2f;	//user's mouseSensitivity
+	private CharacterController charCtrl;
+
 	public const float rotVrange = 90;
 
 	void Start () {
+		charCtrl = GetComponent<CharacterController> ();
 	}
 
 	void Update () {
@@ -27,7 +29,9 @@ public class PlayerCtrl : MonoBehaviour {
 		dir = new Vector3 (dirX, 0f, dirZ);	//can't jump.
 		velocity = dir * SpeedOfChar * Time.deltaTime;
 
-		transform.Translate (velocity, Space.Self);
+		velocity = transform.TransformDirection (velocity);
+
+		charCtrl.Move(velocity);
 	}
 
 	void Rotate(){

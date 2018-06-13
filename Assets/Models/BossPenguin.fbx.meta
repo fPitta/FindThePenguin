@@ -283,7 +283,7 @@ ModelImporter:
       name: BossIdle
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 60
+      lastFrame: 75
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -310,8 +310,8 @@ ModelImporter:
     - serializedVersion: 16
       name: BossWalk
       takeName: Take 001
-      firstFrame: 61
-      lastFrame: 169
+      firstFrame: 76
+      lastFrame: 175
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -338,7 +338,7 @@ ModelImporter:
     - serializedVersion: 16
       name: BossDamage
       takeName: Take 001
-      firstFrame: 170
+      firstFrame: 176
       lastFrame: 200
       wrapMode: 0
       orientationOffsetY: 0
@@ -346,7 +346,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BoomProcess.cs" />
+     <Compile Include="Assets\Scripts\BossPenguinCtrl.cs" />
      <Compile Include="Assets\Scripts\FireManager.cs" />
      <Compile Include="Assets\Scripts\ParticleGC.cs" />
      <Compile Include="Assets\Scripts\PenguinCtrl.cs" />
