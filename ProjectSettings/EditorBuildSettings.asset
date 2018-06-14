@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/GameStart.unity
+    guid: bd9322628448846a8a457fed1a3abf7f
+  - enabled: 1
+    path: Assets/FindThePenguin.unity
+    guid: 2743bb949932f469297b7692bac94f26
+  - enabled: 1
+    path: Assets/GameEnd.unity
+    guid: 2bb221999828040669f1e3610282800f

@@ -54,9 +54,13 @@
      <Compile Include="Assets\Scripts\BoomProcess.cs" />
      <Compile Include="Assets\Scripts\BossPenguinCtrl.cs" />
      <Compile Include="Assets\Scripts\FireManager.cs" />
+     <Compile Include="Assets\Scripts\GameEnd.cs" />
+     <Compile Include="Assets\Scripts\MakePenguin.cs" />
      <Compile Include="Assets\Scripts\ParticleGC.cs" />
      <Compile Include="Assets\Scripts\PenguinCtrl.cs" />
      <Compile Include="Assets\Scripts\PlayerCtrl.cs" />
+     <Compile Include="Assets\Scripts\StartBt.cs" />
+     <Compile Include="Assets\Scripts\TimeLimit.cs" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>

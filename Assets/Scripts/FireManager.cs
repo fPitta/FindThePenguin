@@ -5,10 +5,11 @@ using UnityEngine;
 public class FireManager : MonoBehaviour {
 
 	public GameObject snowBall = null;
+	public bool isAlive = true;
 
 	void Start () {}
 
-	void Update () {
+	void Update () {		
 		if (Input.GetMouseButtonDown (0) == true) {
 			GameObject obj = Instantiate (snowBall);
 			obj.transform.position = Camera.main.transform.position;

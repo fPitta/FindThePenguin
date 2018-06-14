@@ -58,7 +58,9 @@ public class PenguinCtrl : MonoBehaviour {
 
 	void Damage () {
 		ani.Play ("Damage");
-		Destroy (gameObject);
+		if (ani.GetCurrentAnimatorStateInfo (0).IsName ("Damage") && ani.GetCurrentAnimatorStateInfo (0).normalizedTime >= 0.99f) {
+			Destroy (gameObject);
+		}
 	}
 
 	void Start () {
